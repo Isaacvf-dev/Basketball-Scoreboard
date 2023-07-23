@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Basketball Scoreboard</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="column" id="home">
+        <h3>HOME</h3>
+        <h2 class="score" id="home-score">0</h2>
+        <div class="btnwrap">
+          <button class="btn" id="btn-one" onclick="increaseHomeBy1()">+1</button>
+          <button class="btn" id="btn-two" onclick="increaseHomeBy2()">+2</button>
+          <button class="btn" id="btn-three" onclick="increaseHomeBy3()">+3</button>
+        </div>
+      </div>
+      <div class = "column" id = "guest">
+              <h3> GUEST </h3>
+              <h2 class = "score" id = "guest-score"> 0 </h2>
+              <div class = "btnwrap">
+                  <button class = "btn" id = "btn-four" onclick = "increaseGuestBy1()"> +1 </button>
+                  <button class = "btn" id = "btn-five" onclick = "increaseGuestBy2()"> +2 </button>
+                  <button class = "btn" id = "btn-six" onclick = "increaseGuestBy3()"> +3 </button>
+              </div>
+          </div>
+        </div>
+      <div>         
+          <button class = "btn" id = "btn-end" onclick = "endGame()"> End Game </button>
+      </div>
+      <div class = "footer">
+          <p> Made by: <a href = "https://github.com/Isaacvf-dev" target="_blank"> Isaac Vieira </a> </p>
+      </div>
+    </section>
+    <script src = "index.js"> </script>
+  
+  
+</body>
+</html>
